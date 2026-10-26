@@ -6,15 +6,6 @@
 
 ## Description & Notes
 
-# #496 - Next Greater Element I
-
-- **Striver's A2Z Topic:** 9.3: Monotonic Stack & Queue
-- **Date:** Mon, Oct 26, 2026
-- **Blueprint Day:** Day 14
-
-## Description & Notes
-
-The next Greater element.<br>
 Brute Force:<br>
 Its just start iterating from the element in the array. and find the next Element through another loop in it <br>
 ```cpp
@@ -39,8 +30,8 @@ nge of 2=6;
 nge of 3, In this Situation we just pop out 2 as 2 is less than 3; 
 for nge of 1 we just give 3 as Even though 2 is greater than 1 It is left of 3. and doesnot contribute in the nge;
 ```
-**The Code for This Problem is:**<br>
-```
+```cpp
+**The Code for This Problem is:**
 vector<int> nge(vector<int> &arr){
     int n=arr.size();
     create array nge 
@@ -57,3 +48,4 @@ vector<int> nge(vector<int> &arr){
         return nge;
 
     }
+```
