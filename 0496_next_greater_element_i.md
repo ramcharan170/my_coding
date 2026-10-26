@@ -39,8 +39,8 @@ nge of 2=6;
 nge of 3, In this Situation we just pop out 2 as 2 is less than 3; 
 for nge of 1 we just give 3 as Even though 2 is greater than 1 It is left of 3. and doesnot contribute in the nge;
 ```
-```cpp
-**The Code for This Problem is:**
+**The Code for This Problem is:**<br>
+```
 vector<int> nge(vector<int> &arr){
     int n=arr.size();
     create array nge 
@@ -57,4 +57,3 @@ vector<int> nge(vector<int> &arr){
         return nge;
 
     }
-```
